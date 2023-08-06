@@ -2,13 +2,7 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The purpose of this analysis was to predeict the healthy and high-risk loan labels. The financial information provided for this project was a CSV with all the information about loan size, interest rate, borrower income and total debt. I needed to use this information to predict whether the loans issued would be high risk or healthy loans. In total, there were 75036 healthy loans and 2500 high-risk loans. In order to complete this prediction, I used the machine learning process to split the data, train and test the model. I used the `LogisticRegression` module from `SKLearn` to train the model. After this, I saved the predicitons on the testing data labels by using the testing feature data (`X_test`) and the fitted model. Lastly, I evaluated the model's performance using an accuracy score, confusion matrix adn classification report. I would have continued on to reample the data, but I ran into issues importing the `imblearn` module.
 
 ## Results
 
