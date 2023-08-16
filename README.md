@@ -1,4 +1,4 @@
-# Module 20 Challenge: Credit Risk Classification
+# Credit Risk Classification
 
 ## Overview of the Analysis
 
